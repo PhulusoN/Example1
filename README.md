@@ -1,2 +1,5 @@
 # Example1
 
+The app is a simple two-screen Android application built with Jetpack Compose and Material 3. It allows users to manage a list of items they need to pack for a trip.
+Screen One is the main screen that the user sees when the app launches. It has three buttons: "Add to Packing List" which opens a dialog where the user can enter an item name, category, quantity, and comments, "View Packing List" which takes the user to the second screen, and "Exit" which closes the app. When the user fills in the dialog and taps Add, the input is validated to make sure no field is empty and the quantity is a positive number. If something is wrong, an error message is shown. If everything is valid, the item is saved to the list.
+Screen Two is the packing list screen. It has two buttons at the top: "Show All Items" which displays every item in the list, and "Show Items with Qty >= 2" which filters the list to only show items where the quantity is two or more. Each item is displayed in a card showing its name, category, quantity, and comments. The user can tap the back arrow in the top bar to return to Screen One at any time.
