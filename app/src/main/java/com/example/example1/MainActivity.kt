@@ -7,9 +7,9 @@ import android.widget.*
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 
-// ============================================================
+
 // SCREEN ONE - Main Activity
-// ============================================================
+
 class MainActivity : AppCompatActivity() {
 
     companion object {
@@ -147,9 +147,9 @@ class MainActivity : AppCompatActivity() {
     }
 }
 
-// ============================================================
-// SCREEN TWO - List Activity
-// ============================================================
+
+// SCREEN TWO 
+
 class ListActivity : AppCompatActivity() {
 
     private val TAG = "ListActivity"
